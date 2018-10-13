@@ -412,7 +412,9 @@ dbfilter = db10_*
 --config=/home/marlon/odoo/odoo_10/odoo.conf
 /home/marlon/odoo/odoo_10
 ```
-![Alt text](https://github.com/falconsoft3d/blob/master/instalar-odoo-10/img/Screenshot-from-2017-05-24-00-16-08.png?raw=true "Configuracion de PyCharm")
+![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Screenshot-from-2017-05-24-00-16-08.png?raw=true "Configuracion de PyCharm")
+
+https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Screenshot-from-2017-05-24-00-16-08.png
 
 ---------------------
 
