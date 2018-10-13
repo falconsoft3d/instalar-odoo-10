@@ -1,4 +1,4 @@
-## About
+## Instalación de Odoo 10
 
 # str/str
 
@@ -6,7 +6,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/fe3dback/str/badge.svg?branch=master)](https://coveralls.io/github/fe3dback/str?branch=master)
 [![BCH compliance](https://bettercodehub.com/edge/badge/fe3dback/str?branch=master)](https://bettercodehub.com/)
 
-```php
+```linux
 $str = new Str('Hello, 世界');
 $str->last(2); // 世界
 $str->chars(); // ['世', '界']
