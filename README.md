@@ -413,6 +413,8 @@ dbfilter = db10_*
 /home/marlon/odoo/odoo_10
 ```
 
+[pycharm-img]: https://github.com/falconsoft3d/instalar-odoo-10/img/Screenshot-from-2017-05-24-00-16-08.png
+
 
 ---------------------
 
