@@ -414,7 +414,5 @@ dbfilter = db10_*
 ```
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Screenshot-from-2017-05-24-00-16-08.png?raw=true "Configuracion de PyCharm")
 
-https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Screenshot-from-2017-05-24-00-16-08.png
-
 ---------------------
 
