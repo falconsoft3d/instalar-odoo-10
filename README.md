@@ -415,4 +415,74 @@ dbfilter = db10_*
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Screenshot-from-2017-05-24-00-16-08.png?raw=true "Configuracion de PyCharm")
 
 ---------------------
+## k5 – Actualizar pass de una carpeta
+
+```linux
+sudo chown marlon: -R odoo_10/
+```
+
+
+---------------------
+## k6 – /home/marlon/odoo/odoo_10/odoo.conf
+
+```linux
+[options]
+; This is the password that allows database operations:
+; admin_passwd = admin
+db_host = localhost
+db_port = 5432
+db_user = odoo
+db_password = odoo
+addons_path = /home/marlon/odoo/odoo_10/addons
+```
+
+
+---------------------
+## k7 – Descargando Odoo
+
+```linux
+git clone https://github.com/odoo/odoo.git --branch 10.0 --single-branch odoo_10
+```
+
+
+---------------------
+## k8 – Configuracion de Pycharm
+
+```linux
+/home/marlon/Documentos/odoo-apt/odoo-10.0/odoo-bin
+--config=/home/marlon/Documentos/odoo-apt/odoo-10.0/debian/odoo.conf
+```
+
+
+---------------------
+## k9 – Acceso SSH con un fichero ppk
+
+```linux
+sudo apt-get install putty
+puttygen private.ppk -o private-key -O private-openssh
+ssh -i private-key username@remote-server-ip
+```
+
+
+---------------------
+## k10 – Permiso de carpeta
+
+```linux
+chown -R marlon odoo-10.0
+```
+
+
+---------------------
+
+## k11 – Busqueda en el log, cuando necesitemos buscar en el Log
+
+```linux
+grep "243028" /var/log/odoo/odoo-server.lo*
+grep "Documento no enviado" /var/log/odoo/odoo-server.log
+grep "'STATUS', u'0" /var/log/odoo/odoo-server.log
+grep "242893" /var/log/odoo/odoo-server.log
+```
+
+
+---------------------
 
