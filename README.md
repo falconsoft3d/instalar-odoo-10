@@ -376,3 +376,43 @@ Configuración > Parámetros > Parámetros del sistema
 ---------------------
 Hasta aquí la instalación…. los siguientes comandos son para configuración de programación y no son necesarios.
 
+## K1 – revision de version 8
+
+```linux
+/etc/init.d/o +Tab
+/etc/init.d/odoov8 restart
+tail -f /var/log/odoo/odoo-server.log
+```
+
+
+---------------------
+## K2 – Actualizar pass de Postgres
+
+```linux
+sudo -su postgres
+psql
+alter role odoo with password 'odoo';
+```
+
+
+---------------------
+## K3 – Filtrar por base de datos en el fichero conf
+
+```linux
+dbfilter = db10_*
+```
+
+
+---------------------
+
+## K4 – Configuracion de PyCharm
+
+```linux
+/home/marlon/odoo/odoo_10/odoo-bin
+--config=/home/marlon/odoo/odoo_10/odoo.conf
+/home/marlon/odoo/odoo_10
+```
+
+
+---------------------
+
