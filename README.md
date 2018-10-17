@@ -354,6 +354,11 @@ sudo pip install mega.py
 pip install Pillow==5.2.0
 pip install qrcode==6.0
 pip install pyotp==2.2.6
+# Recursos Humanos
+pip install pypandoc
+pip install jinja2
+sudo apt-get install pandoc
+sudo apt-get install python-tidylib
 ```
 
 
