@@ -493,5 +493,49 @@ grep "242893" /var/log/odoo/odoo-server.log
 
 ---------------------
 
+```
+pip install Babel==2.3.4
+pip install decorator==4.0.10
+pip install docutils==0.12
+pip install ebaysdk==2.1.4
+pip install feedparser==5.2.1
+pip install gevent==1.1.2
+pip install greenlet==0.4.10
+pip install jcconv==0.2.3
+pip install Jinja2==2.8
+pip install lxml==3.5.0
+pip install Mako==1.0.4
+pip install MarkupSafe==0.23
+pip install mock==2.0.0
+pip install ofxparse==0.16
+pip install passlib==1.6.5
+pip install Pillow==3.4.1
+pip install psutil==4.3.1
+pip install psycogreen==1.0
+pip install psycopg2==2.7.1
+pip install pydot==1.2.3
+pip install pyparsing==2.1.10
+pip install pyPdf==1.13
+pyserial==3.1.1
+pip install Python-Chart==1.39
+pip install python-dateutil==2.5.3
+pip install python-ldap==2.4.27
+pip install python-openid==2.2.5
+pip install pytz==2016.7
+pip install pyusb==1.0.0
+pip install PyYAML==3.12
+pip install qrcode==5.3
+pip install reportlab==3.3.0
+pip install requests==2.11.1
+pip install six==1.10.0
+pip install suds-jurko==0.6
+pip install vatnumber==1.2
+pip install vobject==0.9.3
+pip install Werkzeug==0.11.11
+pip install wsgiref==0.1.2
+pip install XlsxWriter==0.9.3
+pip install xlwt==1.1.2
+pip install xlrd==1.0.0
+```
 
 
