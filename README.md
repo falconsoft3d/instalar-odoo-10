@@ -537,5 +537,22 @@ pip install XlsxWriter==0.9.3
 pip install xlwt==1.1.2
 pip install xlrd==1.0.0
 ```
-
+## RESTAURANT
+```
+'l10n_cl_dj',
+                'l10n_cl_sii_intercambio',
+                'l10n_cl_sii_query_books',
+                'l10n_cl_pos_sii',
+                'fs_pos_restaurant',
+                'pos_kitchen_display',
+                'aspl_pos_logo',
+                'pos_count_product',
+                'pos_restaurant_table_availability',
+                'backend_theme_v10',
+                'l10n_cl_supplier_payment',
+                'pos_loyalty',
+                'pos_payment_image',
+                'pos_custom_discounts_max',
+                'aspl_pos_combo',
+```
 
