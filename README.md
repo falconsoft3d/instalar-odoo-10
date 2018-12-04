@@ -538,5 +538,6 @@ pip install xlwt==1.1.2
 pip install xlrd==1.0.0
 ```
 
+# Categoria de Material
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/categorias.png?raw=true "Ynext")
 
