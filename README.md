@@ -541,3 +541,6 @@ pip install xlrd==1.0.0
 # Categoria de Material
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/categorias.png?raw=true "Ynext")
 
+# Configuración de Cuentas
+![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Untitled.png?raw=true "Ynext")
+
