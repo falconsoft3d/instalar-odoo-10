@@ -160,6 +160,33 @@ logrotate = True
 log_level = warn
 ```
 
+```
+[options]
+addons_path = /opt/odoo/server/addons
+admin_passwd = pass_1
+db_host = False
+db_name = False
+db_password = pass_2
+;db_port = 5432
+db_user = odoo
+;dbfilter = db10-chile-sii
+list_db = True
+log_db = False
+logfile = /var/log/odoo/odoo-server.log
+logrotate = True
+;log_level = warn
+
+proxy_mode = True
+longpolling_port = 8072
+xmlrpc_port = 8069
+xmlrpc_interface = 127.0.0.1
+netrpc_interface = 127.0.0.1
+
+workers = 17
+limit_time_real = 1200
+limit_time_cpu = 600
+```
+
 
 ---------------------
 ## 18- Script de inicio automático de Odoo-Server en Ubuntu 16
