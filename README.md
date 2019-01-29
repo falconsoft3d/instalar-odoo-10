@@ -268,6 +268,7 @@ service postgresql restart
 
 ```linux
 sudo apt-get -f install
+sudo apt-get install xfonts-75dpi
 sudo apt-get install libxrender1 fontconfig xvfb libjpeg-turbo8
 cd /opt
 wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb
