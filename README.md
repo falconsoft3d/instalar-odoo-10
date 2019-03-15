@@ -572,3 +572,15 @@ pip install xlrd==1.0.0
 # Configuración de Cuentas
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Untitled.png?raw=true "Ynext")
 
+
+## k11 – Configuracion de Cuentas
+
+```
+Proveedores == Pasivo Actual
+IVA Compra == Activos Actuales
+
+Ventas de Giro = Ingresos
+Iva Venta == Pasivo actual
+```
+
+
