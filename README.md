@@ -576,11 +576,13 @@ pip install xlrd==1.0.0
 ## k11 – Configuracion de Cuentas
 
 ```
-Proveedores == Pasivo Actual
-IVA Compra == Activos Actuales
-
+[FACTURA DE VENTA]
 Ventas de Giro = Ingresos
 Iva Venta == Pasivo actual
+
+[FACTURA DE COMPRA]
+Proveedores == Coste directo de la ventas
+IVA Compra == Activos Actuales
 ```
 
 
