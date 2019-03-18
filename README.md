@@ -583,6 +583,13 @@ Iva Venta == Pasivo actual
 [FACTURA DE COMPRA]
 Proveedores == Coste directo de la ventas
 IVA Compra == Activos Actuales
+
+[CLIENTES]
+Deudores por Ventas == A Cobrar
+
+[PROVEEDOR]
+Por pagar proveedores vario == A Pagar
+
 ```
 
 
