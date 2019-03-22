@@ -160,6 +160,30 @@ logrotate = True
 log_level = warn
 ```
 
+## Con los Workers ( CPU * 2 ) + 1
+
+```linux
+db_user = odoo
+db_password = CLAVE DEL USUARIO  ODOO EN POSTGRES
+addons_path = /opt/odoo/server/addons,/opt/odoo/server/extra-addons/odoo_chile_community,/opt/odoo/server/extra-addons/odoo-modulos-3ros,/opt/odoo/server/extra-addons/odoo_general,/opt/odoo/server/extra-addons/odoo_chile_rrhh,/opt/odoo/server/extra-addons/odoo-modulos-web,/opt/odoo/server/extra-addons/odoo_general_web
+logfile = /var/log/odoo/odoo-server.log
+logrotate = True
+log_level = warn
+
+proxy_mode = True
+workers = 17
+limit_time_real = 1200
+limit_time_cpu = 600
+```
+
+## Ngix
+
+```linux
+123
+```
+
+
+
 ```
 [options]
 addons_path = /opt/odoo/server/addons
