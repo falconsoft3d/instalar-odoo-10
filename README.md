@@ -2,6 +2,22 @@
 
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/logo-ynext.png?raw=true "Ynext")
 
+---------------------
+## 1- Creamos script
+
+```linux
+nano .run
+
+cd /
+source .profile
+odoo_actualizar
+```
+
+```
+sh .run
+```
+
+
 ## 1- Actualizamos el sistema
 
 ```linux
