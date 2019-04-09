@@ -179,6 +179,11 @@ logrotate = True
 log_level = warn
 
 proxy_mode = True
+longpolling_port = 8072
+xmlrpc_port = 8069
+xmlrpc_interface = 127.0.0.1
+netrpc_interface = 127.0.0.1
+
 workers = 17
 limit_time_real = 1200
 limit_time_cpu = 600
@@ -189,6 +194,10 @@ limit_time_cpu = 600
 ```linux
 upstream odoo{
         server localhost:8069;
+}
+
+upstream odoochat {
+        server localhost:8072;
 }
 
 server {
@@ -220,6 +229,9 @@ server {
             # invento mio
             proxy_set_header   X-ODOO_DBFILTER db;
             proxy_pass_request_headers on;
+        }
+        location /longpolling {
+            proxy_pass http://odoochat;
         }
 }
 
