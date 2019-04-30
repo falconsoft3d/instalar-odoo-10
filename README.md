@@ -7,6 +7,7 @@
 
 ```linux
 sudo dpkg-reconfigure tzdata
+sudo apt-get install python-dev
 ```
 
 
