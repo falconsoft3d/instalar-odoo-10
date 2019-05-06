@@ -107,9 +107,18 @@ source .bashrc
 ## 11- Crear carpeta para el módulo de dropbox
 
 ```linux
-mkdir /opt/odoo/backups
-chown odoo:root /opt/odoo/backups
+mkdir /opt/odoo/DTES
+chown odoo:root /opt/odoo/DTES
+cd /opt/odoo/DTES
+chmod 777 .
 ```
+
+---------------------
+## 11- Crear carpeta seccion
+
+```linux
+mkdir /opt/odoo/backups
+chow
 
 
 ---------------------
