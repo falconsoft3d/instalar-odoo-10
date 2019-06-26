@@ -73,6 +73,13 @@ unzip 10.0.zip
 ```
 
 
+## 7a- Creando un directorio para almacenar el archivo de logs
+
+```linux
+pip install -r /opt/odoo/server/requirements.txt
+```
+
+
 ---------------------
 ## 8- Ingresamos en la carpeta /opt/odoo y descargamos la fuente para la versión comunity
 
@@ -119,17 +126,9 @@ chmod 777 .
 ```linux
 mkdir /opt/odoo/backups
 chow
-
-
----------------------
-## 12- Creando un directorio para almacenar el archivo de logs
-
-```linux
-pip install -r /opt/odoo/server/requirements.txt
 ```
 
 
----------------------
 ## 13- Creando un directorio para almacenar el archivo de logs
 
 ```linux
