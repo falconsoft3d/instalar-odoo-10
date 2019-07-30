@@ -489,10 +489,17 @@ sudo apt-get update
 sudo apt-get install python-certbot-nginx
 
 sudo certbot --nginx
-sudo certbot --nginx certonly
-
+-A
+- 2
 Dentro de Odoo configuras los parámetros.
 Configuración > Parámetros > Parámetros del sistema
+
+web.base.url
+http -> https
+
+web.base.url.freeze
+True
+
 ```
 
 
