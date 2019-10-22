@@ -62,40 +62,12 @@ sudo /etc/init.d/postgresql restart
 apt-get install unzip
 ```
 
-
----------------------
-## 7- Ingresamos en la carpeta /opt/odoo y descargamos la fuente para la versión comunity
-
-```linux
-cd /opt/odoo/
-wget https://github.com/odoo/odoo/archive/10.0.zip
-unzip 10.0.zip
-```
-
-
-## 7a- Creando un directorio para almacenar el archivo de logs
-
-```linux
-pip install -r /opt/odoo/server/requirements.txt
-```
-
-
----------------------
-## 8- Ingresamos en la carpeta /opt/odoo y descargamos la fuente para la versión comunity
-
-```linux
-mv odoo-10.0 server
-chown -R odoo: server
-```
-
-
 ---------------------
 ## 9- Instalación de librerias, actualizamos pip e instalamos dependencias python de Odoo
 
 ```linux
 apt install python-pip libcups2-dev libxml2-dev libxslt-dev node-less libsasl2-dev libldap2-dev python-lxml -y
 ```
-
 
 ---------------------
 ## 10- Actualizamos PIP
@@ -108,6 +80,33 @@ hash -d pip
 export LC_ALL=C
 source .bashrc
 ```
+
+
+---------------------
+## 7- Ingresamos en la carpeta /opt/odoo y descargamos la fuente para la versión comunity
+
+```linux
+cd /opt/odoo/
+wget https://github.com/odoo/odoo/archive/10.0.zip
+unzip 10.0.zip
+```
+
+---------------------
+## 8- Ingresamos en la carpeta /opt/odoo y descargamos la fuente para la versión comunity
+
+```linux
+mv odoo-10.0 server
+chown -R odoo: server
+```
+
+
+## 7a- Creando un directorio para almacenar el archivo de logs
+
+```linux
+pip install -r /opt/odoo/server/requirements.txt
+```
+
+
 
 
 ---------------------
