@@ -124,7 +124,7 @@ chmod 777 .
 
 ```linux
 mkdir /opt/odoo/backups
-chow
+chown odoo:root /opt/odoo/backups
 ```
 
 
