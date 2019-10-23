@@ -52,6 +52,9 @@ exit
 apt-get update
 sudo apt-get install postgresql-contrib
 sudo /etc/init.d/postgresql restart
+sudo su - postgres
+psql
+ALTER USER "odoo" with superuser;
 ```
 
 
