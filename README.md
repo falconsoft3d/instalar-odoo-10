@@ -462,6 +462,7 @@ nginx -s reload
 
 ```linux
 cd /opt/odoo/server/extra-addons
+pip install simplejson
 apt install libxml2 python-openpyxl python-libxml2 ghostscript libssl-dev -y
 apt install python-m2crypto
 pip install mammoth xmltodict Crypto elaphe cchardet suds urllib3 SOAPpy xlwt xlsxwriter pybase64 dicttoxml rsa dropbox==7.3.1 
