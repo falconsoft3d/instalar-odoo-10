@@ -670,6 +670,9 @@ pip install xlrd==1.0.0
 # Configuración de Cuentas
 ![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/Untitled.png?raw=true "Ynext")
 
+# Configuración de Cuentas
+![Alt text](https://github.com/falconsoft3d/instalar-odoo-10/blob/master/img/photo_2020-08-21_01-42-41.jpg?raw=true "Ynext")
+
 
 ## k11 – Configuracion de Cuentas
 
