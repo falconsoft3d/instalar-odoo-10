@@ -357,15 +357,11 @@ service postgresql restart
 ## 26- Instalar Libreria wkhtmltopdf
 
 ```linux
-sudo apt-get -f install
-sudo apt-get install xfonts-75dpi
-sudo apt-get install libxrender1 fontconfig xvfb libjpeg-turbo8
-cd /opt
-wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb
-dpkg -i wkhtmltox_0.12.5-1.xenial_amd64.deb
+sudo apt-get update -y
+sudo apt-get install -y xfonts-75dpi
+wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
+dpkg -i wkhtmltox_0.12.5-1.focal_amd64.deb
 apt install -f
-cp /usr/local/bin/wkhtmltoimage /usr/bin/wkhtmltoimage
-cp /usr/local/bin/wkhtmltopdf /usr/bin/wkhtmltopdf
 ```
 
 
