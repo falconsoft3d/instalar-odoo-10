@@ -10,6 +10,20 @@ sudo dpkg-reconfigure tzdata
 sudo apt-get install python-dev
 ```
 
+## Instalamos Python 2.7
+```linux
+sudo apt-add-repository universe
+sudo apt update
+sudo apt install python2-minimal
+python2 -V
+
+ln -s /usr/bin/python2.7 /usr/bin/python
+
+wget -P ~/.local/lib https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python2.7 ~/.local/lib/get-pip.py --user 
+printf "\nPATH=\$PATH:~/.local/bin/" >> ~/.bashrc
+source ~/.bashrc
+```
 
 ## 1- Actualizamos el sistema
 
